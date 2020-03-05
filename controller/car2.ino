@@ -19,9 +19,11 @@ void setup()
 
 
 void loop() {
- 
+  
 bt=Serial.read();
 
+
+  
 if(bt=='F')
 {
  forward(); 
@@ -96,10 +98,10 @@ void forward() //F
   motor2.setSpeed(125);
   motor3.setSpeed(125);
   motor4.setSpeed(125);
-  motor1.run(FORWARD);
-  motor2.run(FORWARD);
-  motor3.run(FORWARD);
-  motor4.run(FORWARD);
+  motor1.run(BACKWARD);
+  motor2.run(BACKWARD);
+  motor3.run(BACKWARD);
+  motor4.run(BACKWARD);
 }
 
 void backward() //B
@@ -108,10 +110,10 @@ void backward() //B
   motor2.setSpeed(255);
   motor3.setSpeed(255);
   motor4.setSpeed(255);
-  motor1.run(BACKWARD);
-  motor2.run(BACKWARD);
-  motor3.run(BACKWARD);
-  motor4.run(BACKWARD);
+  motor1.run(FORWARD);
+  motor2.run(FORWARD);
+  motor3.run(FORWARD);
+  motor4.run(FORWARD);
 }
 void left1() //L
 {
@@ -119,10 +121,10 @@ void left1() //L
   motor2.setSpeed(180);
   motor3.setSpeed(180);
   motor4.setSpeed(255);
-  motor1.run(FORWARD);
-  motor2.run(FORWARD);
-  motor3.run(FORWARD);
-  motor4.run(FORWARD);
+  motor1.run(BACKWARD);
+  motor2.run(BACKWARD);
+  motor3.run(BACKWARD);
+  motor4.run(BACKWARD);
 }
 
 void left2() //K
@@ -131,10 +133,10 @@ void left2() //K
   motor2.setSpeed(140);
   motor3.setSpeed(140);
   motor4.setSpeed(255);
-  motor1.run(FORWARD);
-  motor2.run(FORWARD);
-  motor3.run(FORWARD);
-  motor4.run(FORWARD);
+  motor1.run(BACKWARD);
+  motor2.run(BACKWARD);
+  motor3.run(BACKWARD);
+  motor4.run(BACKWARD);
 }
 
 void left3() //J
@@ -143,10 +145,10 @@ void left3() //J
   motor2.setSpeed(180);
   motor3.setSpeed(180);
   motor4.setSpeed(180);
-  motor1.run(FORWARD);
-  motor2.run(BACKWARD);
-  motor3.run(BACKWARD);
-  motor4.run(FORWARD);
+  motor1.run(BACKWARD);
+  motor2.run(FORWARD);
+  motor3.run(FORWARD);
+  motor4.run(BACKWARD);
 }
 
 
@@ -156,10 +158,10 @@ void left4() //H
   motor2.setSpeed(140);
   motor3.setSpeed(140);
   motor4.setSpeed(255);
-  motor1.run(FORWARD);
-  motor2.run(FORWARD);
-  motor3.run(FORWARD);
-  motor4.run(FORWARD);
+  motor1.run(BACKWARD);
+  motor2.run(BACKWARD);
+  motor3.run(BACKWARD);
+  motor4.run(BACKWARD);
 }
 
 void left5() //G
@@ -168,10 +170,10 @@ void left5() //G
   motor2.setSpeed(110);
   motor3.setSpeed(110);
   motor4.setSpeed(255);
-  motor1.run(FORWARD);
-  motor2.run(FORWARD);
-  motor3.run(FORWARD);
-  motor4.run(FORWARD);
+  motor1.run(BACKWARD);
+  motor2.run(BACKWARD);
+  motor3.run(BACKWARD);
+  motor4.run(BACKWARD);
 }
 
 void right1() //R
@@ -180,10 +182,10 @@ void right1() //R
   motor2.setSpeed(255);
   motor3.setSpeed(255);
   motor4.setSpeed(180);
-  motor1.run(FORWARD);
-  motor2.run(FORWARD);
-  motor3.run(FORWARD);
-  motor4.run(FORWARD);
+  motor1.run(BACKWARD);
+  motor2.run(BACKWARD);
+  motor3.run(BACKWARD);
+  motor4.run(BACKWARD);
 }
 void right2() //T
 {
@@ -191,10 +193,10 @@ void right2() //T
   motor2.setSpeed(255);
   motor3.setSpeed(255);
   motor4.setSpeed(140);
-  motor1.run(FORWARD);
-  motor2.run(FORWARD);
-  motor3.run(FORWARD);
-  motor4.run(FORWARD);
+  motor1.run(BACKWARD);
+  motor2.run(BACKWARD);
+  motor3.run(BACKWARD);
+  motor4.run(BACKWARD);
 }
 void right3() //Y
 {
@@ -202,10 +204,10 @@ void right3() //Y
   motor2.setSpeed(180);
   motor3.setSpeed(180);
   motor4.setSpeed(180);
-  motor1.run(BACKWARD);
-  motor2.run(FORWARD);
-  motor3.run(FORWARD);
-  motor4.run(BACKWARD);
+  motor1.run(FORWARD);
+  motor2.run(BACKWARD);
+  motor3.run(BACKWARD);
+  motor4.run(FORWARD);
 }
 void right4() //U
 {
@@ -213,10 +215,10 @@ void right4() //U
   motor2.setSpeed(255);
   motor3.setSpeed(255);
   motor4.setSpeed(140);
-  motor1.run(FORWARD);
-  motor2.run(FORWARD);
-  motor3.run(FORWARD);
-  motor4.run(FORWARD);
+  motor1.run(BACKWARD);
+  motor2.run(BACKWARD);
+  motor3.run(BACKWARD);
+  motor4.run(BACKWARD);
 }
 
 void right5() //I
@@ -225,10 +227,10 @@ void right5() //I
   motor2.setSpeed(255);
   motor3.setSpeed(255);
   motor4.setSpeed(110);
-  motor1.run(FORWARD);
-  motor2.run(FORWARD);
-  motor3.run(FORWARD);
-  motor4.run(FORWARD);
+  motor1.run(BACKWARD);
+  motor2.run(BACKWARD);
+  motor3.run(BACKWARD);
+  motor4.run(BACKWARD);
 }
 
 void Stop()
