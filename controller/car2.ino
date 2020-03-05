@@ -2,8 +2,8 @@
 
 AF_DCMotor motor1(1); //right
 AF_DCMotor motor2(2); //left
-AF_DCMotor motor3(3); //left
-AF_DCMotor motor4(4); //right
+AF_DCMotor motor3(4); //left
+AF_DCMotor motor4(3); //right
 
 char bt='S';
 int s=255;
@@ -94,10 +94,10 @@ if(bt=='S')
 }
 void forward() //F
 {
-  motor1.setSpeed(125);
-  motor2.setSpeed(125);
-  motor3.setSpeed(125);
-  motor4.setSpeed(125);
+  motor1.setSpeed(140);
+  motor2.setSpeed(100);
+  motor3.setSpeed(100);
+  motor4.setSpeed(140);
   motor1.run(BACKWARD);
   motor2.run(BACKWARD);
   motor3.run(BACKWARD);
@@ -118,8 +118,8 @@ void backward() //B
 void left1() //L
 {
   motor1.setSpeed(255);
-  motor2.setSpeed(180);
-  motor3.setSpeed(180);
+  motor2.setSpeed(140);
+  motor3.setSpeed(120);
   motor4.setSpeed(255);
   motor1.run(BACKWARD);
   motor2.run(BACKWARD);
@@ -139,7 +139,7 @@ void left2() //K
   motor4.run(BACKWARD);
 }
 
-void left3() //J
+void left3() //J//
 {
   motor1.setSpeed(180);
   motor2.setSpeed(180);
@@ -152,11 +152,11 @@ void left3() //J
 }
 
 
-void left4() //H
+void left4() //H//
 {
   motor1.setSpeed(255);
-  motor2.setSpeed(140);
-  motor3.setSpeed(140);
+  motor2.setSpeed(130);
+  motor3.setSpeed(130);
   motor4.setSpeed(255);
   motor1.run(BACKWARD);
   motor2.run(BACKWARD);
@@ -164,11 +164,11 @@ void left4() //H
   motor4.run(BACKWARD);
 }
 
-void left5() //G
+void left5() //G//
 {
   motor1.setSpeed(255);
-  motor2.setSpeed(110);
-  motor3.setSpeed(110);
+  motor2.setSpeed(100);
+  motor3.setSpeed(100);
   motor4.setSpeed(255);
   motor1.run(BACKWARD);
   motor2.run(BACKWARD);
@@ -211,10 +211,10 @@ void right3() //Y
 }
 void right4() //U
 {
-  motor1.setSpeed(140);
+  motor1.setSpeed(130);
   motor2.setSpeed(255);
   motor3.setSpeed(255);
-  motor4.setSpeed(140);
+  motor4.setSpeed(130);
   motor1.run(BACKWARD);
   motor2.run(BACKWARD);
   motor3.run(BACKWARD);
@@ -223,10 +223,10 @@ void right4() //U
 
 void right5() //I
 {
-  motor1.setSpeed(110);
+  motor1.setSpeed(100);
   motor2.setSpeed(255);
   motor3.setSpeed(255);
-  motor4.setSpeed(110);
+  motor4.setSpeed(100);
   motor1.run(BACKWARD);
   motor2.run(BACKWARD);
   motor3.run(BACKWARD);
