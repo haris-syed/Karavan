@@ -5,6 +5,7 @@
 #include <BLEAdvertisedDevice.h>
 #include <string.h>
 
+
 const int pin27 = 27;
 const int pin26 = 26;
 const int pin25 = 25;
@@ -55,7 +56,7 @@ int scanTime = 1; //In seconds
 BLEScan* pBLEScan;
 char const * b1 = "24:0a:c4:30:ef:e6";
 char const * b2 = "24:0a:c4:30:f5:be";
-char const * b3 = "24:0a:c4:30:e4:5a";
+char const * b3 = "24:0a:c4:30:d6:4a";
 char const * b4 = "24:0a:c4:30:d5:42";
 
 int* ar;
