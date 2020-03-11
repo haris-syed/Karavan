@@ -10,19 +10,16 @@
 
 > Tips
 
-- HAVE WHITE SPACE
-- MAKE IT PRETTY
-- GIFS ARE REALLY COOL
+
 
 > Video
-![](https://i.imgur.com/7wVigpv.gif)
+- ![imgurvideogif](https://i.imgur.com/7wVigpvh.gif)
 
 ---
 
 ## Table of Contents (Optional)
 - [Description](#description)
 - [Installation](#installation)
-- [Features](#features)
 - [Contributing](#contributing)
 - [Team](#team)
 
