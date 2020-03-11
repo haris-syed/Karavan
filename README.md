@@ -10,6 +10,7 @@
 
 > Video
 - ![imgurvideogif](https://i.imgur.com/7wVigpvh.gif)
+- <a href="https://i.imgur.com/7wVigpvh.gif">Link</a>
 
 ---
 
