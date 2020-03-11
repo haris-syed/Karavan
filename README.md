@@ -15,71 +15,37 @@
 - GIFS ARE REALLY COOL
 
 > Video
-
-![Recordit GIF](https://i.imgur.com/7wVigpvm.gif)
-
-**ttystudio**
-
-![ttystudio GIF](https://i.imgur.com/7wVigpvm.gif)
+![](https://i.imgur.com/7wVigpv.gif)
 
 ---
 
 ## Table of Contents (Optional)
+- [Description](#description)
 - [Installation](#installation)
 - [Features](#features)
 - [Contributing](#contributing)
 - [Team](#team)
-- [FAQ](#faq)
-- [Support](#support)
-- [License](#license)
 
 
 ---
-## Installation
-
-- All the `code` required to get started
-- Images of what it should look like
-
+## Description
+This Repository contains the code for the hardware components of this project. The cars and standard 4 wheel drive rovers controlled by a Arduino Uno and Raspberry Pi.
+Hardware details for each car are as follows:
+1. Raspberry Pi (3 B+ or 4)
+2. Arduino Uno
+3. HC-06 bluetooth
+4. Arduino ESP32
 ---
 
 ## Installation
 
-- All the `code` required to get started
-- Images of what it should look like
+- The files in the `controller` package need to be installed onto the Arduino Uno
+- The files in the `command` package need to be copied into a Raspberry Pi
+- The files in the `IPS` package need to be installed into ESP32's
 
 ### Clone
 
-- Clone this repo to your local machine using `https://github.com/fvcproductions/SOMEREPO`
-
-### Setup
-
-- If you want more syntax highlighting, format your code like this:
-
-> update and install this package first
-
-```shell
-$ brew update
-$ brew install fvcproductions
-```
-
-> now install npm and bower packages
-
-```shell
-$ npm install
-$ bower install
-```
-
-- For all the possible languages that support syntax highlithing on GitHub (which is basically all of them), refer <a href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml" target="_blank">here</a>.
-
----
-
-## Features
-## Usage (Optional)
-## Documentation (Optional)
-## Tests (Optional)
-
-- Going into more detail on code and technologies used
-- I utilized this nifty <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown Cheatsheet</a> for this sample `README`.
+- Clone this repo to your local machine using `https://github.com/haris-syed/Karavan.git`
 
 ---
 
@@ -93,7 +59,7 @@ $ bower install
     - 🍴 Fork this repo!
 
 - **Option 2**
-    - 👯 Clone this repo to your local machine using `https://github.com/joanaz/HireDot2.git`
+    - 👯 Clone this repo to your local machine using `https://github.com/haris-syed/Karavan.git`
 
 ### Step 2
 
@@ -101,18 +67,14 @@ $ bower install
 
 ### Step 3
 
-- 🔃 Create a new pull request using <a href="https://github.com/joanaz/HireDot2/compare/" target="_blank">`https://github.com/joanaz/HireDot2/compare/`</a>.
+- 🔃 Create a new pull request.
 
 ---
 
 ## Team
 
-> Or Contributors/People
+> Our Contributors
 
-| <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> | <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> | <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> |
+| <a href="https://github.com/haris-syed" target="_blank">**Haris**</a> | <a href="https://github.com/saaiha" target="_blank">**Saaiha**</a> | <a href="https://github.com/Shahrukhx04" target="_blank">**Shahrukh**</a> |
 | :---: |:---:| :---:|
-| [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)    | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)  |
-| <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> |
-
-- You can just grab their GitHub profile image URL
-- You should probably resize their picture using `?s=200` at the end of the image URL.
+| [![](https://avatars1.githubusercontent.com/u/40659720?v=3&s=200)](https://github.com/haris-syed)    | [![](https://avatars1.githubusercontent.com/u/55662499?v=3&s=200)](https://github.com/saaiha) | [![](https://avatars3.githubusercontent.com/u/23401460?v=3&s=200)](https://github.com/Shahrukhx04)  |
