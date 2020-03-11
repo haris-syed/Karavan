@@ -8,10 +8,6 @@
 
 > A system of autonomous, track following rovers
 
-> Tips
-
-
-
 > Video
 - ![imgurvideogif](https://i.imgur.com/7wVigpvh.gif)
 
